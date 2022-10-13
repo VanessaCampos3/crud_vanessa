@@ -36,6 +36,10 @@ import {
       extended:true
   }))
 
+  app.get('/', (req,res)=>{
+    res.sendFile('./Public/index.html')
+  })
+
 app.post('/agregarAlumno',(req,res)=>{
     let nombre=req.body.nombre
     let calificacion=req.body.calificacion
