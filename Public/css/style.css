@@ -1,0 +1,74 @@
+*{
+    padding: 3;
+    margin: 3;
+    color: #ffffff;
+}
+
+
+html, body{
+    text-align: center;
+    background-image: url("fondo6.webp");
+    font-style: arial;
+    color: #ffffff;
+}
+footer{
+    background-color: rgb(162, 38, 187);
+}
+
+label{
+    color:#faf9fa;
+}
+
+section{
+color: black;
+}
+
+table{
+    background-color: #17b183;
+    color: #17b183;
+    border: 4px solid #17b183 ;
+    border-color: 4px solid #ffffff ;
+    text-align: center;
+    width: 70%;
+	height: 300px;
+
+}
+
+select, label{
+    background-color:#17b183;
+    border: 2px solid #17b183 ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    color: #ffffff;
+    
+}
+
+input{
+    background-color:#17b183;
+    border: 2px solid #17b183 ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+h4,h2,h1,a{
+    font-family:'Courier New', Courier, monospace;
+    color: #17b183;
+}
+
+div{
+    border: 3px solid #17b183 ;
+    width: 60%;
+	height: 400px;
+    background-color: #ffffff ;
+    color: #ffffff;
+}
+
+form{
+    color: #ffffff;
+}
+
+::placeholder{
+    color: #ffffff;
+}
