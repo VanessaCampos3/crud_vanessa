@@ -37,7 +37,7 @@ import {
   }))
 
   app.get('/', (req,res)=>{
-    res.sendFile('./Public/index.html')
+    res.links('./Public/index.html')
   })
 
 app.post('/agregarAlumno',(req,res)=>{
