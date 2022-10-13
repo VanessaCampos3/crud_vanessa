@@ -26,7 +26,7 @@ import {
   
   })
   
-  app.use(express.static('public'))
+  app.use(express.static('./Public/'))
   
   con.connect()
   
@@ -36,9 +36,9 @@ import {
       extended:true
   }))
 
-  app.get('/', (req,res)=>{
-    res.links('./Public/index.html')
-  })
+//   app.get('/', (req,res)=>{
+//     res.links('./Public/index.html')
+//   })
 
 app.post('/agregarAlumno',(req,res)=>{
     let nombre=req.body.nombre
